@@ -1,6 +1,10 @@
 #include "widget.h"
 #include "ui_widget.h"
 
+#include <memory>
+
+// 소스코드 추가
+
 // DB 경로
 #define PATH_DATABASE "C:/Users/iot/Documents/develop/DB/danawha"
 
