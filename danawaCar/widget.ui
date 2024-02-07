@@ -1,0 +1,5588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>490</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="currentIndex">
+      <number>3</number>
+     </property>
+     <widget class="QWidget" name="loginPage">
+      <widget class="QPushButton" name="login_logo">
+       <property name="geometry">
+        <rect>
+         <x>55</x>
+         <y>40</y>
+         <width>380</width>
+         <height>290</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../../Downloads/2303220808170960-removebg-preview.png</normaloff>../../../../Downloads/2303220808170960-removebg-preview.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>500</width>
+         <height>400</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>false</bool>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="default">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="input_login_ID">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>360</y>
+         <width>300</width>
+         <height>50</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid rgb(220, 220, 220);
+border-radius:5px;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>   아이디</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="input_login_PW">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>430</y>
+         <width>300</width>
+         <height>50</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid rgb(220, 220, 220);
+border-radius:5px;</string>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Password</enum>
+       </property>
+       <property name="placeholderText">
+        <string>   비밀번호</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_find">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>570</y>
+         <width>150</width>
+         <height>50</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>맑은 고딕 Semilight</family>
+         <pointsize>12</pointsize>
+         <italic>false</italic>
+         <bold>true</bold>
+         <underline>true</underline>
+         <strikeout>false</strikeout>
+         <stylestrategy>PreferDefault</stylestrategy>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(69, 78, 255);</string>
+       </property>
+       <property name="text">
+        <string>ID/PW 찾기</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_login">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>500</y>
+         <width>300</width>
+         <height>50</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>맑은 고딕 Semilight</family>
+         <pointsize>12</pointsize>
+         <italic>false</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <stylestrategy>PreferDefault</stylestrategy>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(69, 78, 255);
+border-radius:5px;
+</string>
+       </property>
+       <property name="text">
+        <string>로그인</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_joinPage">
+       <property name="geometry">
+        <rect>
+         <x>248</x>
+         <y>570</y>
+         <width>150</width>
+         <height>50</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>맑은 고딕 Semilight</family>
+         <pointsize>12</pointsize>
+         <bold>true</bold>
+         <underline>true</underline>
+         <strikeout>false</strikeout>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::StrongFocus</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(69, 78, 255);</string>
+       </property>
+       <property name="text">
+        <string>회원가입</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_17">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>680</y>
+         <width>400</width>
+         <height>90</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="link">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>680</y>
+         <width>400</width>
+         <height>90</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="autoDefault">
+        <bool>true</bool>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_15">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>588</y>
+         <width>8</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(69, 78, 255);</string>
+       </property>
+       <property name="text">
+        <string>|</string>
+       </property>
+      </widget>
+      <zorder>label_15</zorder>
+      <zorder>login_logo</zorder>
+      <zorder>input_login_ID</zorder>
+      <zorder>input_login_PW</zorder>
+      <zorder>btn_find</zorder>
+      <zorder>btn_login</zorder>
+      <zorder>btn_joinPage</zorder>
+      <zorder>label_17</zorder>
+      <zorder>link</zorder>
+     </widget>
+     <widget class="QWidget" name="joinPage">
+      <widget class="QPushButton" name="join_logo">
+       <property name="geometry">
+        <rect>
+         <x>55</x>
+         <y>40</y>
+         <width>380</width>
+         <height>290</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../../Downloads/2303220808170960-removebg-preview.png</normaloff>../../../../Downloads/2303220808170960-removebg-preview.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>500</width>
+         <height>400</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="input_Join_EMAIL">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>550</y>
+         <width>300</width>
+         <height>50</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid rgb(220, 220, 220);
+border-radius:5px;</string>
+       </property>
+       <property name="placeholderText">
+        <string>   E-mail</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="input_Join_ID">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>410</y>
+         <width>300</width>
+         <height>50</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid rgb(220, 220, 220);
+border-radius:5px;</string>
+       </property>
+       <property name="placeholderText">
+        <string>   ID</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_join">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>620</y>
+         <width>300</width>
+         <height>50</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>맑은 고딕 Semilight</family>
+         <pointsize>12</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::StrongFocus</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(69, 78, 255);
+border-radius:5px;</string>
+       </property>
+       <property name="text">
+        <string>회원가입</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="input_Join_PW">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>480</y>
+         <width>300</width>
+         <height>50</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid rgb(220, 220, 220);
+border-radius:5px;</string>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::PasswordEchoOnEdit</enum>
+       </property>
+       <property name="placeholderText">
+        <string>   PW</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="input_Join_NAME">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>340</y>
+         <width>300</width>
+         <height>50</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid rgb(220, 220, 220);
+border-radius:5px;</string>
+       </property>
+       <property name="placeholderText">
+        <string>   이름</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="findPage">
+      <widget class="QPushButton" name="find_logo">
+       <property name="geometry">
+        <rect>
+         <x>55</x>
+         <y>40</y>
+         <width>380</width>
+         <height>290</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../../Downloads/2303220808170960-removebg-preview.png</normaloff>../../../../Downloads/2303220808170960-removebg-preview.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>500</width>
+         <height>400</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QTabWidget" name="tabWidget">
+       <property name="geometry">
+        <rect>
+         <x>28</x>
+         <y>319</y>
+         <width>421</width>
+         <height>391</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QTabBar::tab {height: 45px; width: 210px;}
+
+QTabBar::tab:selected {
+	color: rgb(255, 255, 255);
+	background-color: rgb(69, 78, 255);
+	font: 700 9pt &quot;맑은 고딕&quot;;
+}
+QTabWidget::pane { /* The tab widget frame */
+	border-bottom: 1px solid #C2C7CB;
+	border-left: 1px solid #C2C7CB;
+	border-right: 1px solid #C2C7CB;
+}
+</string>
+       </property>
+       <property name="currentIndex">
+        <number>1</number>
+       </property>
+       <widget class="QWidget" name="findID">
+        <attribute name="title">
+         <string>아이디 찾기</string>
+        </attribute>
+        <widget class="QLineEdit" name="input_findID_EMAIL">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>160</y>
+           <width>300</width>
+           <height>50</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid rgb(220, 220, 220);
+border-radius:5px;</string>
+         </property>
+         <property name="placeholderText">
+          <string>   E-mail</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="btn_join_2">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>270</y>
+           <width>300</width>
+           <height>50</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>맑은 고딕 Semilight</family>
+           <pointsize>12</pointsize>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::StrongFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(69, 78, 255);
+border-radius:5px;
+</string>
+         </property>
+         <property name="text">
+          <string>확인</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="input_findID_NAME">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>90</y>
+           <width>300</width>
+           <height>50</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid rgb(220, 220, 220);
+border-radius:5px;</string>
+         </property>
+         <property name="placeholderText">
+          <string>   이름</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="findPW">
+        <attribute name="title">
+         <string>비밀번호 찾기</string>
+        </attribute>
+        <widget class="QLineEdit" name="input_findPW_ID">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>60</y>
+           <width>300</width>
+           <height>50</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid rgb(220, 220, 220);
+border-radius:5px;</string>
+         </property>
+         <property name="placeholderText">
+          <string>   ID</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="input_findPW_EMAIL">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>200</y>
+           <width>300</width>
+           <height>50</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid rgb(220, 220, 220);
+border-radius:5px;</string>
+         </property>
+         <property name="placeholderText">
+          <string>   E-mail</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="input_findPW_NAME">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>130</y>
+           <width>300</width>
+           <height>50</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid rgb(220, 220, 220);
+border-radius:5px;</string>
+         </property>
+         <property name="placeholderText">
+          <string>   이름</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="btn_join_3">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>270</y>
+           <width>300</width>
+           <height>50</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>맑은 고딕 Semilight</family>
+           <pointsize>12</pointsize>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::StrongFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(69, 78, 255);
+border-radius:5px;</string>
+         </property>
+         <property name="text">
+          <string>확인</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="mainPage">
+      <widget class="QTabWidget" name="tap_brand_model">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>450</width>
+         <height>261</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QTabBar::tab{
+height: 30px; width: 225px;
+}
+
+
+QTabBar::tab:selected {
+	color: rgb(255, 255, 255);
+	background-color: rgb(69, 78, 255);
+	font: 700 9pt &quot;맑은 고딕&quot;;
+}
+QTabWidget::pane { /* The tab widget frame */
+	border-bottom: 1px solid #C2C7CB;
+	border-left: 1px solid #C2C7CB;
+	border-right: 1px solid #C2C7CB;
+}
+</string>
+       </property>
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="tab">
+        <attribute name="title">
+         <string>브랜드별</string>
+        </attribute>
+        <widget class="QPushButton" name="genesis">
+         <property name="geometry">
+          <rect>
+           <x>190</x>
+           <y>10</y>
+           <width>70</width>
+           <height>60</height>
+          </rect>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../../../../Downloads/DB/danawa/GENESIS.png</normaloff>../../../../Downloads/DB/danawa/GENESIS.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>70</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>false</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>false</bool>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="honda">
+         <property name="geometry">
+          <rect>
+           <x>190</x>
+           <y>100</y>
+           <width>70</width>
+           <height>60</height>
+          </rect>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../../../../Downloads/DB/danawa/honda.png</normaloff>../../../../Downloads/DB/danawa/honda.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>60</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>false</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>false</bool>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="porsche">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>100</y>
+           <width>70</width>
+           <height>60</height>
+          </rect>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../../../../Desktop/porsche.png</normaloff>../../../../Desktop/porsche.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>70</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>false</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>false</bool>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="audi">
+         <property name="geometry">
+          <rect>
+           <x>350</x>
+           <y>100</y>
+           <width>70</width>
+           <height>60</height>
+          </rect>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../../../../Downloads/AUDI.png</normaloff>../../../../Downloads/AUDI.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>70</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>false</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>false</bool>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="kia">
+         <property name="geometry">
+          <rect>
+           <x>110</x>
+           <y>10</y>
+           <width>70</width>
+           <height>60</height>
+          </rect>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../../../../Downloads/DB/danawa/KIA.png</normaloff>../../../../Downloads/DB/danawa/KIA.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>70</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>false</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>false</bool>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="hyundai">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>10</y>
+           <width>70</width>
+           <height>60</height>
+          </rect>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../../../../Downloads/DB/danawa/HYUNDAI.png</normaloff>../../../../Downloads/DB/danawa/HYUNDAI.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>70</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>false</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>false</bool>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="benz">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>100</y>
+           <width>70</width>
+           <height>60</height>
+          </rect>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../../../../Desktop/benz.png</normaloff>../../../../Desktop/benz.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>70</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>false</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>false</bool>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="KG">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>10</y>
+           <width>70</width>
+           <height>60</height>
+          </rect>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../../../../Downloads/DB/danawa/KG_MOBILITY.png</normaloff>../../../../Downloads/DB/danawa/KG_MOBILITY.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>70</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>false</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>false</bool>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="BMW">
+         <property name="geometry">
+          <rect>
+           <x>110</x>
+           <y>100</y>
+           <width>70</width>
+           <height>60</height>
+          </rect>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../../../../Desktop/bmw.png</normaloff>../../../../Desktop/bmw.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>70</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>false</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>false</bool>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="chevolet">
+         <property name="geometry">
+          <rect>
+           <x>350</x>
+           <y>10</y>
+           <width>70</width>
+           <height>60</height>
+          </rect>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../../../../Downloads/DB/danawa/CHEVROLET.png</normaloff>../../../../Downloads/DB/danawa/CHEVROLET.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>70</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>false</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>false</bool>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="brand_btn">
+         <property name="geometry">
+          <rect>
+           <x>210</x>
+           <y>200</y>
+           <width>30</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_16">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>70</y>
+           <width>71</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+         </property>
+         <property name="text">
+          <string>현대</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_20">
+         <property name="geometry">
+          <rect>
+           <x>110</x>
+           <y>70</y>
+           <width>71</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+         </property>
+         <property name="text">
+          <string>기아</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_21">
+         <property name="geometry">
+          <rect>
+           <x>190</x>
+           <y>70</y>
+           <width>71</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+         </property>
+         <property name="text">
+          <string>제네시스</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_22">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>70</y>
+           <width>71</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+         </property>
+         <property name="text">
+          <string>KG모빌리티</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_23">
+         <property name="geometry">
+          <rect>
+           <x>350</x>
+           <y>70</y>
+           <width>71</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+         </property>
+         <property name="text">
+          <string>쉐보레</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_24">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>160</y>
+           <width>71</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+         </property>
+         <property name="text">
+          <string>벤츠</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_25">
+         <property name="geometry">
+          <rect>
+           <x>110</x>
+           <y>160</y>
+           <width>71</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+         </property>
+         <property name="text">
+          <string>BMW</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_26">
+         <property name="geometry">
+          <rect>
+           <x>190</x>
+           <y>160</y>
+           <width>71</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+         </property>
+         <property name="text">
+          <string>혼다</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_27">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>160</y>
+           <width>71</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+         </property>
+         <property name="text">
+          <string>포르쉐</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_28">
+         <property name="geometry">
+          <rect>
+           <x>350</x>
+           <y>160</y>
+           <width>71</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+         </property>
+         <property name="text">
+          <string>아우디</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <zorder>brand_btn</zorder>
+        <zorder>label_16</zorder>
+        <zorder>hyundai</zorder>
+        <zorder>label_20</zorder>
+        <zorder>label_21</zorder>
+        <zorder>label_22</zorder>
+        <zorder>label_23</zorder>
+        <zorder>label_24</zorder>
+        <zorder>label_25</zorder>
+        <zorder>label_26</zorder>
+        <zorder>label_27</zorder>
+        <zorder>label_28</zorder>
+        <zorder>honda</zorder>
+        <zorder>audi</zorder>
+        <zorder>chevolet</zorder>
+        <zorder>benz</zorder>
+        <zorder>genesis</zorder>
+        <zorder>kia</zorder>
+        <zorder>BMW</zorder>
+        <zorder>KG</zorder>
+        <zorder>porsche</zorder>
+       </widget>
+       <widget class="QWidget" name="tab_2">
+        <attribute name="title">
+         <string>차종별</string>
+        </attribute>
+        <widget class="QStackedWidget" name="stackedWidget_2">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>0</y>
+           <width>401</width>
+           <height>181</height>
+          </rect>
+         </property>
+         <property name="currentIndex">
+          <number>1</number>
+         </property>
+         <widget class="QWidget" name="page_3">
+          <widget class="QPushButton" name="large_suv">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>100</y>
+             <width>70</width>
+             <height>60</height>
+            </rect>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../../Downloads/DB/cartype/largesuv.png</normaloff>../../../../Downloads/DB/cartype/largesuv.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>70</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>false</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>false</bool>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="light_car">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>10</y>
+             <width>70</width>
+             <height>60</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="toolTipDuration">
+            <number>-1</number>
+           </property>
+           <property name="layoutDirection">
+            <enum>Qt::LeftToRight</enum>
+           </property>
+           <property name="inputMethodHints">
+            <set>Qt::ImhNone</set>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../../Downloads/DB/cartype/lihgtcar.png</normaloff>../../../../Downloads/DB/cartype/lihgtcar.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>70</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>false</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>false</bool>
+           </property>
+           <property name="autoDefault">
+            <bool>false</bool>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="midium_suv">
+           <property name="geometry">
+            <rect>
+             <x>240</x>
+             <y>100</y>
+             <width>70</width>
+             <height>60</height>
+            </rect>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../../Downloads/DB/cartype/midiumsuv.png</normaloff>../../../../Downloads/DB/cartype/midiumsuv.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>70</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>false</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>false</bool>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="large_Car">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>100</y>
+             <width>70</width>
+             <height>60</height>
+            </rect>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../../Downloads/DB/cartype/largecar.png</normaloff>../../../../Downloads/DB/cartype/largecar.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>70</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>false</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>false</bool>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="small_suv">
+           <property name="geometry">
+            <rect>
+             <x>160</x>
+             <y>100</y>
+             <width>70</width>
+             <height>60</height>
+            </rect>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../../Downloads/DB/cartype/smallsuv.png</normaloff>../../../../Downloads/DB/cartype/smallsuv.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>70</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>false</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>false</bool>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="small_car">
+           <property name="geometry">
+            <rect>
+             <x>80</x>
+             <y>10</y>
+             <width>70</width>
+             <height>60</height>
+            </rect>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../../Downloads/DB/cartype/smallcar.png</normaloff>../../../../Downloads/DB/cartype/smallcar.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>70</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>false</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>false</bool>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="semimidium_car">
+           <property name="geometry">
+            <rect>
+             <x>160</x>
+             <y>10</y>
+             <width>70</width>
+             <height>60</height>
+            </rect>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../../Downloads/DB/cartype/semimidiumcar.png</normaloff>../../../../Downloads/DB/cartype/semimidiumcar.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>70</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>false</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>false</bool>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="midium_Car">
+           <property name="geometry">
+            <rect>
+             <x>240</x>
+             <y>10</y>
+             <width>70</width>
+             <height>60</height>
+            </rect>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../../Downloads/DB/cartype/midiumcar.png</normaloff>../../../../Downloads/DB/cartype/midiumcar.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>70</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>false</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>false</bool>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="sports_car">
+           <property name="geometry">
+            <rect>
+             <x>80</x>
+             <y>100</y>
+             <width>70</width>
+             <height>60</height>
+            </rect>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../../Downloads/DB/cartype/sportscar.png</normaloff>../../../../Downloads/DB/cartype/sportscar.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>70</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>false</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>false</bool>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="semilarge_car">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>10</y>
+             <width>70</width>
+             <height>60</height>
+            </rect>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../../Downloads/DB/cartype/semilargecar.png</normaloff>../../../../Downloads/DB/cartype/semilargecar.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>70</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>false</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>false</bool>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_29">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>70</y>
+             <width>71</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+           </property>
+           <property name="text">
+            <string>경차</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_30">
+           <property name="geometry">
+            <rect>
+             <x>80</x>
+             <y>70</y>
+             <width>71</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+           </property>
+           <property name="text">
+            <string>소형</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_31">
+           <property name="geometry">
+            <rect>
+             <x>160</x>
+             <y>70</y>
+             <width>71</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+           </property>
+           <property name="text">
+            <string>준중형</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_32">
+           <property name="geometry">
+            <rect>
+             <x>240</x>
+             <y>70</y>
+             <width>71</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+           </property>
+           <property name="text">
+            <string>중형</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_33">
+           <property name="geometry">
+            <rect>
+             <x>80</x>
+             <y>160</y>
+             <width>71</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+           </property>
+           <property name="text">
+            <string>스포츠카</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_34">
+           <property name="geometry">
+            <rect>
+             <x>240</x>
+             <y>160</y>
+             <width>71</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+           </property>
+           <property name="text">
+            <string>중형SUV</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_35">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>160</y>
+             <width>71</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+           </property>
+           <property name="text">
+            <string>대형</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_36">
+           <property name="geometry">
+            <rect>
+             <x>160</x>
+             <y>160</y>
+             <width>71</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+           </property>
+           <property name="text">
+            <string>소형SUV</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_37">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>70</y>
+             <width>71</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+           </property>
+           <property name="text">
+            <string>준대형</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_38">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>160</y>
+             <width>71</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+           </property>
+           <property name="text">
+            <string>대형SUV</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <zorder>label_29</zorder>
+          <zorder>label_35</zorder>
+          <zorder>label_32</zorder>
+          <zorder>label_30</zorder>
+          <zorder>label_33</zorder>
+          <zorder>label_37</zorder>
+          <zorder>label_31</zorder>
+          <zorder>label_38</zorder>
+          <zorder>label_34</zorder>
+          <zorder>label_36</zorder>
+          <zorder>large_suv</zorder>
+          <zorder>light_car</zorder>
+          <zorder>midium_suv</zorder>
+          <zorder>large_Car</zorder>
+          <zorder>small_suv</zorder>
+          <zorder>small_car</zorder>
+          <zorder>semimidium_car</zorder>
+          <zorder>midium_Car</zorder>
+          <zorder>sports_car</zorder>
+          <zorder>semilarge_car</zorder>
+         </widget>
+         <widget class="QWidget" name="page_4">
+          <widget class="QPushButton" name="RVMPV_btn">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>10</y>
+             <width>70</width>
+             <height>60</height>
+            </rect>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../../Downloads/DB/cartype/RVMPV.png</normaloff>../../../../Downloads/DB/cartype/RVMPV.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>70</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>false</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>false</bool>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_41">
+           <property name="geometry">
+            <rect>
+             <x>80</x>
+             <y>10</y>
+             <width>70</width>
+             <height>60</height>
+            </rect>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../../Downloads/DB/cartype/truck.png</normaloff>../../../../Downloads/DB/cartype/truck.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>70</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>false</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>false</bool>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_39">
+           <property name="geometry">
+            <rect>
+             <x>80</x>
+             <y>70</y>
+             <width>71</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+           </property>
+           <property name="text">
+            <string>상용</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_40">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>70</y>
+             <width>71</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+           </property>
+           <property name="text">
+            <string>RV/MPV</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <zorder>label_39</zorder>
+          <zorder>label_40</zorder>
+          <zorder>RVMPV_btn</zorder>
+          <zorder>pushButton_41</zorder>
+         </widget>
+        </widget>
+        <widget class="QPushButton" name="type_pre">
+         <property name="geometry">
+          <rect>
+           <x>190</x>
+           <y>200</y>
+           <width>31</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="type_next">
+         <property name="geometry">
+          <rect>
+           <x>225</x>
+           <y>200</y>
+           <width>31</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>-10</y>
+         <width>451</width>
+         <height>48</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="tapMain">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QPushButton" name="mainTap_all">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(30, 30, 30);
+</string>
+          </property>
+          <property name="text">
+           <string>전체</string>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+          <property name="autoExclusive">
+           <bool>true</bool>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="mainTap_brand">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(30, 30, 30);
+</string>
+          </property>
+          <property name="text">
+           <string>브랜드별</string>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+          <property name="autoExclusive">
+           <bool>true</bool>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="mainTap_model">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(30, 30, 30);
+</string>
+          </property>
+          <property name="text">
+           <string>모델별</string>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+          <property name="autoExclusive">
+           <bool>true</bool>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QStackedWidget" name="stackedWidget_4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>400</y>
+         <width>461</width>
+         <height>381</height>
+        </rect>
+       </property>
+       <property name="currentIndex">
+        <number>3</number>
+       </property>
+       <widget class="QWidget" name="all">
+        <widget class="QPushButton" name="btn_topModel">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>175</y>
+           <width>451</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string>모델별 Top10   ＞</string>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="btn_topBrand">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>451</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="text">
+          <string>브랜드별 Top3   ＞</string>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QTableWidget" name="tableWidget_3">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>55</y>
+           <width>450</width>
+           <height>115</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QScrollBar:vertical{
+    boder:none;
+    background-color: rgb(69, 78, 255);
+}
+</string>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="editTriggers">
+          <set>QAbstractItemView::NoEditTriggers</set>
+         </property>
+         <attribute name="horizontalHeaderDefaultSectionSize">
+          <number>143</number>
+         </attribute>
+         <column>
+          <property name="text">
+           <string>브랜드</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>판매량</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>점유율</string>
+          </property>
+         </column>
+        </widget>
+        <widget class="QTabWidget" name="tapBrand">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>30</y>
+           <width>451</width>
+           <height>141</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QTabBar::tab {height: 30px; width: 225px;}
+
+QTabBar::tab:selected {
+	color: rgb(255, 255, 255);
+	background-color: rgb(69, 78, 255);
+	font: 700 9pt &quot;맑은 고딕&quot;;
+}
+QTabWidget::pane { /* The tab widget frame */
+	border-bottom: 0px solid #C2C7CB;
+	border-left: 1px solid #C2C7CB;
+	border-right: 1px solid #C2C7CB;
+	border-color: rgba(255, 255, 255, 0);
+}
+</string>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="tab_5">
+          <attribute name="title">
+           <string>국산차</string>
+          </attribute>
+         </widget>
+         <widget class="QWidget" name="tab_6">
+          <attribute name="title">
+           <string>수입차</string>
+          </attribute>
+         </widget>
+        </widget>
+        <widget class="QStackedWidget" name="stackedWidget_5">
+         <property name="geometry">
+          <rect>
+           <x>-10</x>
+           <y>200</y>
+           <width>471</width>
+           <height>181</height>
+          </rect>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="page">
+          <widget class="QTableWidget" name="tableWidget_2">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>32</y>
+             <width>450</width>
+             <height>142</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QScrollBar:vertical{
+    boder:none;
+    background-color: rgb(69, 78, 255);
+}</string>
+           </property>
+           <property name="horizontalScrollBarPolicy">
+            <enum>Qt::ScrollBarAlwaysOff</enum>
+           </property>
+           <property name="editTriggers">
+            <set>QAbstractItemView::NoEditTriggers</set>
+           </property>
+           <property name="rowCount">
+            <number>0</number>
+           </property>
+           <property name="columnCount">
+            <number>3</number>
+           </property>
+           <attribute name="horizontalHeaderDefaultSectionSize">
+            <number>137</number>
+           </attribute>
+           <column>
+            <property name="text">
+             <string>모델</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>판매량</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>전월대비</string>
+            </property>
+           </column>
+          </widget>
+          <widget class="QTabWidget" name="tapModel">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>5</y>
+             <width>451</width>
+             <height>171</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QTabBar::tab {height: 30px; width: 225px;}
+
+QTabBar::tab:selected {
+	color: rgb(255, 255, 255);
+	background-color: rgb(69, 78, 255);
+	font: 700 9pt &quot;맑은 고딕&quot;;
+}
+QTabWidget::pane { /* The tab widget frame */
+	border-bottom: 0px solid #C2C7CB;
+	border-left: 1px solid #C2C7CB;
+	border-right: 1px solid #C2C7CB;
+	border-color: rgba(255, 255, 255, 0);
+}
+</string>
+           </property>
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <widget class="QWidget" name="tab_7">
+            <attribute name="title">
+             <string>국산차</string>
+            </attribute>
+           </widget>
+           <widget class="QWidget" name="tab_8">
+            <attribute name="title">
+             <string>수입차</string>
+            </attribute>
+            <widget class="QTableWidget" name="tableWidget">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>445</width>
+               <height>142</height>
+              </rect>
+             </property>
+            </widget>
+           </widget>
+          </widget>
+          <zorder>tapModel</zorder>
+          <zorder>tableWidget_2</zorder>
+         </widget>
+         <widget class="QWidget" name="page_5">
+          <widget class="QTabWidget" name="tapModel_2">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>5</y>
+             <width>451</width>
+             <height>171</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QTabBar::tab {height: 30px; width: 225px;}
+
+QTabBar::tab:selected {
+	color: rgb(255, 255, 255);
+	background-color: rgb(69, 78, 255);
+	font: 700 9pt &quot;맑은 고딕&quot;;
+}
+QTabWidget::pane { /* The tab widget frame */
+	border-bottom: 0px solid #C2C7CB;
+	border-left: 1px solid #C2C7CB;
+	border-right: 1px solid #C2C7CB;
+	border-color: rgba(255, 255, 255, 0);
+}
+</string>
+           </property>
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <widget class="QWidget" name="tab_13">
+            <attribute name="title">
+             <string>국산차</string>
+            </attribute>
+           </widget>
+           <widget class="QWidget" name="tab_14">
+            <attribute name="title">
+             <string>수입차</string>
+            </attribute>
+            <widget class="QTableWidget" name="tableWidget_4">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>445</width>
+               <height>142</height>
+              </rect>
+             </property>
+            </widget>
+           </widget>
+          </widget>
+          <widget class="QTableWidget" name="tableWidget_5">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>32</y>
+             <width>451</width>
+             <height>142</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QScrollBar:vertical{
+    boder:none;
+    background-color: rgb(69, 78, 255);
+}</string>
+           </property>
+           <property name="horizontalScrollBarPolicy">
+            <enum>Qt::ScrollBarAlwaysOff</enum>
+           </property>
+           <property name="editTriggers">
+            <set>QAbstractItemView::NoEditTriggers</set>
+           </property>
+           <property name="rowCount">
+            <number>0</number>
+           </property>
+           <property name="columnCount">
+            <number>2</number>
+           </property>
+           <attribute name="horizontalHeaderDefaultSectionSize">
+            <number>200</number>
+           </attribute>
+           <column>
+            <property name="text">
+             <string>모델</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>판매량</string>
+            </property>
+           </column>
+          </widget>
+         </widget>
+        </widget>
+        <zorder>tapBrand</zorder>
+        <zorder>btn_topModel</zorder>
+        <zorder>btn_topBrand</zorder>
+        <zorder>tableWidget_3</zorder>
+        <zorder>stackedWidget_5</zorder>
+       </widget>
+       <widget class="QWidget" name="brand">
+        <widget class="QLabel" name="label_3">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>10</y>
+           <width>40</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>국산차</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="korea_day">
+         <property name="geometry">
+          <rect>
+           <x>50</x>
+           <y>10</y>
+           <width>90</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_5">
+         <property name="geometry">
+          <rect>
+           <x>320</x>
+           <y>10</y>
+           <width>31</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>총합:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="korea_total">
+         <property name="geometry">
+          <rect>
+           <x>350</x>
+           <y>10</y>
+           <width>61</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QTableWidget" name="tableWidget_7">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>30</y>
+           <width>450</width>
+           <height>161</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QScrollBar:vertical{
+    boder:none;
+    background-color: rgb(69, 78, 255);
+}
+
+
+QTableWidget::pane { /* The tab widget frame */
+	border-bottom: 1px solid #C2C7CB;
+	border-left: 1px solid #C2C7CB;
+	border-right: 1px solid #C2C7CB;
+	border-color: rgb(69, 78, 255);
+}</string>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="editTriggers">
+          <set>QAbstractItemView::NoEditTriggers</set>
+         </property>
+         <attribute name="horizontalHeaderDefaultSectionSize">
+          <number>149</number>
+         </attribute>
+         <column>
+          <property name="text">
+           <string>브랜드</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>판매량</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>점유율</string>
+          </property>
+         </column>
+        </widget>
+        <widget class="QLabel" name="income_total">
+         <property name="geometry">
+          <rect>
+           <x>350</x>
+           <y>200</y>
+           <width>61</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_9">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>200</y>
+           <width>40</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>수입차</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_10">
+         <property name="geometry">
+          <rect>
+           <x>320</x>
+           <y>200</y>
+           <width>31</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>총합:</string>
+         </property>
+        </widget>
+        <widget class="QTableWidget" name="tableWidget_8">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>220</y>
+           <width>450</width>
+           <height>161</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QScrollBar:vertical{
+    boder:none;
+    background-color: rgb(69, 78, 255);
+}</string>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="editTriggers">
+          <set>QAbstractItemView::NoEditTriggers</set>
+         </property>
+         <attribute name="horizontalHeaderDefaultSectionSize">
+          <number>149</number>
+         </attribute>
+         <column>
+          <property name="text">
+           <string>브랜드</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>판매량</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>점유율</string>
+          </property>
+         </column>
+        </widget>
+        <widget class="QLabel" name="income_day">
+         <property name="geometry">
+          <rect>
+           <x>50</x>
+           <y>200</y>
+           <width>90</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_2">
+        <widget class="QLabel" name="brand_logo">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>71</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QTableWidget" name="tableWidget_9">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>90</y>
+           <width>451</width>
+           <height>281</height>
+          </rect>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="editTriggers">
+          <set>QAbstractItemView::NoEditTriggers</set>
+         </property>
+         <attribute name="horizontalHeaderDefaultSectionSize">
+          <number>146</number>
+         </attribute>
+         <column>
+          <property name="text">
+           <string>모델</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>판매량</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>점유율</string>
+          </property>
+         </column>
+        </widget>
+        <widget class="QLabel" name="label_12">
+         <property name="geometry">
+          <rect>
+           <x>100</x>
+           <y>30</y>
+           <width>41</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>판매량</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_13">
+         <property name="geometry">
+          <rect>
+           <x>100</x>
+           <y>50</y>
+           <width>61</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>전월(대비)</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="sales_rate">
+         <property name="geometry">
+          <rect>
+           <x>190</x>
+           <y>30</y>
+           <width>131</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="pre_month">
+         <property name="geometry">
+          <rect>
+           <x>190</x>
+           <y>50</y>
+           <width>131</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_7">
+        <widget class="QTableWidget" name="tableWidget_10">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>20</y>
+           <width>451</width>
+           <height>351</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QScrollBar:vertical{
+    boder:none;
+    background-color: rgb(69, 78, 255);
+}</string>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="editTriggers">
+          <set>QAbstractItemView::NoEditTriggers</set>
+         </property>
+         <attribute name="horizontalHeaderDefaultSectionSize">
+          <number>146</number>
+         </attribute>
+         <column>
+          <property name="text">
+           <string>모델</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>판매량</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>점유율</string>
+          </property>
+         </column>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QStackedWidget" name="stackedWidget_3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>285</y>
+         <width>451</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QTabBar::tab{
+height: 30px; width: 225px;
+}
+
+</string>
+       </property>
+       <property name="currentIndex">
+        <number>4</number>
+       </property>
+       <widget class="QWidget" name="allMonth">
+        <widget class="QTabWidget" name="tapMonth">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>20</y>
+           <width>451</width>
+           <height>91</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QTabBar::tab{
+height: 30px; width: 225px;
+}
+
+
+QTabBar::tab:selected {
+	color: rgb(255, 255, 255);
+	background-color: rgb(69, 78, 255);
+	font: 700 9pt &quot;맑은 고딕&quot;;
+}
+QTabWidget::pane { /* The tab widget frame */
+	border-bottom: 1px solid #C2C7CB;
+	border-left: 1px solid #C2C7CB;
+	border-right: 1px solid #C2C7CB;
+}
+</string>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="tab_3">
+          <attribute name="title">
+           <string>월 선택</string>
+          </attribute>
+          <widget class="QWidget" name="layoutWidget">
+           <property name="geometry">
+            <rect>
+             <x>120</x>
+             <y>20</y>
+             <width>211</width>
+             <height>24</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item>
+             <widget class="QComboBox" name="year_combo">
+              <item>
+               <property name="text">
+                <string>2023</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="month_combo">
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>5</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>6</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>7</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>8</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>9</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>10</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>11</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>12</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="tab_4">
+          <attribute name="title">
+           <string>기간 선택</string>
+          </attribute>
+          <widget class="QWidget" name="layoutWidget_4">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>20</y>
+             <width>141</width>
+             <height>24</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_7">
+            <property name="spacing">
+             <number>2</number>
+            </property>
+            <item>
+             <widget class="QComboBox" name="period_year1">
+              <item>
+               <property name="text">
+                <string>2023</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="period_month1">
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>5</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>6</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>7</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>8</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>9</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>10</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>11</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>12</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QLabel" name="label">
+           <property name="geometry">
+            <rect>
+             <x>170</x>
+             <y>20</y>
+             <width>31</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="layoutDirection">
+            <enum>Qt::LeftToRight</enum>
+           </property>
+           <property name="text">
+            <string>~</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QWidget" name="layoutWidget_5">
+           <property name="geometry">
+            <rect>
+             <x>200</x>
+             <y>20</y>
+             <width>141</width>
+             <height>24</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_8">
+            <property name="spacing">
+             <number>2</number>
+            </property>
+            <item>
+             <widget class="QComboBox" name="period_year2">
+              <item>
+               <property name="text">
+                <string>2023</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="period_month2">
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>5</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>6</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>7</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>8</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>9</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>10</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>11</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>12</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QPushButton" name="period_find">
+           <property name="geometry">
+            <rect>
+             <x>350</x>
+             <y>20</y>
+             <width>68</width>
+             <height>26</height>
+            </rect>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="text">
+            <string>조회</string>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="detailbrand">
+        <widget class="QTabWidget" name="tapMonth_6">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>20</y>
+           <width>451</width>
+           <height>91</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QTabBar::tab{
+height: 30px; width: 225px;
+}
+
+
+QTabBar::tab:selected {
+	color: rgb(255, 255, 255);
+	background-color: rgb(69, 78, 255);
+	font: 700 9pt &quot;맑은 고딕&quot;;
+}
+QTabWidget::pane { /* The tab widget frame */
+	border-bottom: 1px solid #C2C7CB;
+	border-left: 1px solid #C2C7CB;
+	border-right: 1px solid #C2C7CB;
+}
+</string>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="tab_19">
+          <attribute name="title">
+           <string>월 선택</string>
+          </attribute>
+          <widget class="QWidget" name="layoutWidget_17">
+           <property name="geometry">
+            <rect>
+             <x>120</x>
+             <y>20</y>
+             <width>211</width>
+             <height>24</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_20">
+            <item>
+             <widget class="QComboBox" name="year_combo_6">
+              <item>
+               <property name="text">
+                <string>2023</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="month_combo_6">
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>5</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>6</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>7</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>8</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>9</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>10</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>11</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>12</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="tab_20">
+          <attribute name="title">
+           <string>기간 선택</string>
+          </attribute>
+          <widget class="QWidget" name="layoutWidget_18">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>20</y>
+             <width>141</width>
+             <height>24</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_21">
+            <property name="spacing">
+             <number>2</number>
+            </property>
+            <item>
+             <widget class="QComboBox" name="period_year1_6">
+              <item>
+               <property name="text">
+                <string>2023</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="period_month1_6">
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>5</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>6</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>7</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>8</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>9</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>10</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>11</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>12</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QLabel" name="label_19">
+           <property name="geometry">
+            <rect>
+             <x>170</x>
+             <y>20</y>
+             <width>31</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="layoutDirection">
+            <enum>Qt::LeftToRight</enum>
+           </property>
+           <property name="text">
+            <string>~</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QWidget" name="layoutWidget_19">
+           <property name="geometry">
+            <rect>
+             <x>200</x>
+             <y>20</y>
+             <width>141</width>
+             <height>24</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_22">
+            <property name="spacing">
+             <number>2</number>
+            </property>
+            <item>
+             <widget class="QComboBox" name="period_year2_6">
+              <item>
+               <property name="text">
+                <string>2023</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="period_month2_6">
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>5</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>6</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>7</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>8</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>9</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>10</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>11</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>12</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QPushButton" name="period_find_6">
+           <property name="geometry">
+            <rect>
+             <x>350</x>
+             <y>20</y>
+             <width>68</width>
+             <height>26</height>
+            </rect>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="text">
+            <string>조회</string>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="brandMonth">
+        <widget class="QTabWidget" name="tapMonth_2">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>20</y>
+           <width>451</width>
+           <height>91</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QTabBar::tab{
+height: 30px; width: 225px;
+}
+
+
+QTabBar::tab:selected {
+	color: rgb(255, 255, 255);
+	background-color: rgb(69, 78, 255);
+	font: 700 9pt &quot;맑은 고딕&quot;;
+}
+QTabWidget::pane { /* The tab widget frame */
+	border-bottom: 1px solid #C2C7CB;
+	border-left: 1px solid #C2C7CB;
+	border-right: 1px solid #C2C7CB;
+}
+</string>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="tab_9">
+          <attribute name="title">
+           <string>월 선택</string>
+          </attribute>
+          <widget class="QWidget" name="layoutWidget_3">
+           <property name="geometry">
+            <rect>
+             <x>120</x>
+             <y>20</y>
+             <width>211</width>
+             <height>24</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_6">
+            <item>
+             <widget class="QComboBox" name="year_combo_2">
+              <item>
+               <property name="text">
+                <string>2023</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="month_combo_2">
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>5</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>6</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>7</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>8</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>9</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>10</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>11</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>12</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="tab_10">
+          <attribute name="title">
+           <string>기간 선택</string>
+          </attribute>
+          <widget class="QWidget" name="layoutWidget_6">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>20</y>
+             <width>141</width>
+             <height>24</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_9">
+            <property name="spacing">
+             <number>2</number>
+            </property>
+            <item>
+             <widget class="QComboBox" name="period_year1_2">
+              <item>
+               <property name="text">
+                <string>2023</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="period_month1_2">
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>5</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>6</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>7</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>8</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>9</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>10</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>11</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>12</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QLabel" name="label_2">
+           <property name="geometry">
+            <rect>
+             <x>170</x>
+             <y>20</y>
+             <width>31</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="layoutDirection">
+            <enum>Qt::LeftToRight</enum>
+           </property>
+           <property name="text">
+            <string>~</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QWidget" name="layoutWidget_7">
+           <property name="geometry">
+            <rect>
+             <x>200</x>
+             <y>20</y>
+             <width>141</width>
+             <height>24</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_10">
+            <property name="spacing">
+             <number>2</number>
+            </property>
+            <item>
+             <widget class="QComboBox" name="period_year2_2">
+              <item>
+               <property name="text">
+                <string>2023</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="period_month2_2">
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>5</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>6</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>7</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>8</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>9</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>10</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>11</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>12</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QPushButton" name="period_find_2">
+           <property name="geometry">
+            <rect>
+             <x>350</x>
+             <y>20</y>
+             <width>68</width>
+             <height>26</height>
+            </rect>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="text">
+            <string>조회</string>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="modelMonth">
+        <widget class="QTabWidget" name="tapMonth_3">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>20</y>
+           <width>451</width>
+           <height>91</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QTabBar::tab{
+height: 30px; width: 225px;
+}
+
+
+QTabBar::tab:selected {
+	color: rgb(255, 255, 255);
+	background-color: rgb(69, 78, 255);
+	font: 700 9pt &quot;맑은 고딕&quot;;
+}
+QTabWidget::pane { /* The tab widget frame */
+	border-bottom: 1px solid #C2C7CB;
+	border-left: 1px solid #C2C7CB;
+	border-right: 1px solid #C2C7CB;
+}
+</string>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="tab_11">
+          <attribute name="title">
+           <string>월 선택</string>
+          </attribute>
+          <widget class="QWidget" name="layoutWidget_8">
+           <property name="geometry">
+            <rect>
+             <x>120</x>
+             <y>20</y>
+             <width>211</width>
+             <height>24</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_11">
+            <item>
+             <widget class="QComboBox" name="year_combo_3">
+              <item>
+               <property name="text">
+                <string>2023</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="month_combo_3">
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>5</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>6</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>7</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>8</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>9</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>10</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>11</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>12</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="tab_12">
+          <attribute name="title">
+           <string>기간 선택</string>
+          </attribute>
+          <widget class="QWidget" name="layoutWidget_9">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>20</y>
+             <width>141</width>
+             <height>24</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_12">
+            <property name="spacing">
+             <number>2</number>
+            </property>
+            <item>
+             <widget class="QComboBox" name="period_year1_3">
+              <item>
+               <property name="text">
+                <string>2023</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="period_month1_3">
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>5</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>6</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>7</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>8</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>9</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>10</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>11</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>12</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QLabel" name="label_4">
+           <property name="geometry">
+            <rect>
+             <x>170</x>
+             <y>20</y>
+             <width>31</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="layoutDirection">
+            <enum>Qt::LeftToRight</enum>
+           </property>
+           <property name="text">
+            <string>~</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QWidget" name="layoutWidget_10">
+           <property name="geometry">
+            <rect>
+             <x>200</x>
+             <y>20</y>
+             <width>141</width>
+             <height>24</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_13">
+            <property name="spacing">
+             <number>2</number>
+            </property>
+            <item>
+             <widget class="QComboBox" name="period_year2_3">
+              <item>
+               <property name="text">
+                <string>2023</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="period_month2_3">
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>5</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>6</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>7</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>8</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>9</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>10</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>11</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>12</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QPushButton" name="period_find_3">
+           <property name="geometry">
+            <rect>
+             <x>350</x>
+             <y>20</y>
+             <width>68</width>
+             <height>26</height>
+            </rect>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="text">
+            <string>조회</string>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="CarTypeMonth">
+        <widget class="QTabWidget" name="tapMonth_4">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>20</y>
+           <width>450</width>
+           <height>91</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QTabBar::tab{
+height: 30px; width: 225px;
+}
+
+
+QTabBar::tab:selected {
+	color: rgb(255, 255, 255);
+	background-color: rgb(69, 78, 255);
+	font: 700 9pt &quot;맑은 고딕&quot;;
+}
+QTabWidget::pane { /* The tab widget frame */
+	border-bottom: 1px solid #C2C7CB;
+	border-left: 1px solid #C2C7CB;
+	border-right: 1px solid #C2C7CB;
+}
+</string>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="tab_15">
+          <attribute name="title">
+           <string>월 선택</string>
+          </attribute>
+          <widget class="QWidget" name="layoutWidget_11">
+           <property name="geometry">
+            <rect>
+             <x>120</x>
+             <y>20</y>
+             <width>211</width>
+             <height>24</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_14">
+            <item>
+             <widget class="QComboBox" name="year_combo_4">
+              <item>
+               <property name="text">
+                <string>2023</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="month_combo_4">
+              <property name="cursor">
+               <cursorShape>ArrowCursor</cursorShape>
+              </property>
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>5</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>6</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>7</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>8</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>9</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>10</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>11</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>12</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="tab_16">
+          <attribute name="title">
+           <string>기간 선택</string>
+          </attribute>
+          <widget class="QWidget" name="layoutWidget_12">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>20</y>
+             <width>141</width>
+             <height>24</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_15">
+            <property name="spacing">
+             <number>2</number>
+            </property>
+            <item>
+             <widget class="QComboBox" name="period_year1_4">
+              <item>
+               <property name="text">
+                <string>2023</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="period_month1_4">
+              <property name="cursor">
+               <cursorShape>ArrowCursor</cursorShape>
+              </property>
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>5</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>6</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>7</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>8</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>9</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>10</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>11</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>12</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QLabel" name="label_14">
+           <property name="geometry">
+            <rect>
+             <x>170</x>
+             <y>20</y>
+             <width>31</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="layoutDirection">
+            <enum>Qt::LeftToRight</enum>
+           </property>
+           <property name="text">
+            <string>~</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QWidget" name="layoutWidget_13">
+           <property name="geometry">
+            <rect>
+             <x>200</x>
+             <y>20</y>
+             <width>141</width>
+             <height>24</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_16">
+            <property name="spacing">
+             <number>2</number>
+            </property>
+            <item>
+             <widget class="QComboBox" name="period_year2_4">
+              <item>
+               <property name="text">
+                <string>2023</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="period_month2_4">
+              <property name="cursor">
+               <cursorShape>ArrowCursor</cursorShape>
+              </property>
+              <item>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>5</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>6</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>7</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>8</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>9</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>10</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>11</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>12</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QPushButton" name="period_find_4">
+           <property name="geometry">
+            <rect>
+             <x>350</x>
+             <y>20</y>
+             <width>68</width>
+             <height>26</height>
+            </rect>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="text">
+            <string>조회</string>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <zorder>stackedWidget_3</zorder>
+      <zorder>tap_brand_model</zorder>
+      <zorder>layoutWidget</zorder>
+      <zorder>stackedWidget_4</zorder>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>input_Join_ID</sender>
+   <signal>editingFinished()</signal>
+   <receiver>Widget</receiver>
+   <slot>dupl_id()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>161</x>
+     <y>433</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>482</x>
+     <y>486</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>input_Join_EMAIL</sender>
+   <signal>editingFinished()</signal>
+   <receiver>Widget</receiver>
+   <slot>dupl_email()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>339</x>
+     <y>591</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>484</x>
+     <y>630</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>join_logo</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>go_startPage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>267</x>
+     <y>180</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>485</x>
+     <y>198</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>find_logo</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>go_startPage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>240</x>
+     <y>156</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>486</x>
+     <y>243</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_find</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>btn_find()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>601</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>486</x>
+     <y>673</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_join_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>find_ID()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>214</x>
+     <y>647</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>486</x>
+     <y>710</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_join_3</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>find_PW()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>341</x>
+     <y>647</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>484</x>
+     <y>563</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_login</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>LOGIN_SUCCESS()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>158</x>
+     <y>540</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>0</x>
+     <y>619</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_join</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>JOIN_SUCCESS()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>222</x>
+     <y>670</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>487</x>
+     <y>659</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tapModel</sender>
+   <signal>currentChanged(int)</signal>
+   <receiver>Widget</receiver>
+   <slot>MonthTop()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>178</x>
+     <y>631</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>3</x>
+     <y>654</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tapModel_2</sender>
+   <signal>currentChanged(int)</signal>
+   <receiver>Widget</receiver>
+   <slot>MainSelectPeriod_Model()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>158</x>
+     <y>630</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>0</x>
+     <y>644</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>light_car</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>CarType()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>88</x>
+     <y>141</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>2</x>
+     <y>136</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>small_car</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>CarType()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>176</x>
+     <y>132</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>3</x>
+     <y>168</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>semimidium_car</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>CarType()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>253</x>
+     <y>142</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-2</x>
+     <y>119</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>midium_Car</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>CarType()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>323</x>
+     <y>147</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-1</x>
+     <y>99</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>semilarge_car</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>CarType()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>396</x>
+     <y>144</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-1</x>
+     <y>86</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>large_Car</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>CarType()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>77</x>
+     <y>225</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>2</x>
+     <y>218</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sports_car</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>CarType()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>179</x>
+     <y>225</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1</x>
+     <y>199</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>small_suv</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>CarType()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>228</x>
+     <y>218</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>2</x>
+     <y>194</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>midium_suv</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>CarType()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>321</x>
+     <y>238</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-1</x>
+     <y>247</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>large_suv</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>CarType()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>403</x>
+     <y>234</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>3</x>
+     <y>243</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tapBrand</sender>
+   <signal>currentChanged(int)</signal>
+   <receiver>Widget</receiver>
+   <slot>on_tapBrand_currentChanged()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>151</x>
+     <y>453</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-2</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>period_find_3</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>selectPeriod()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>425</x>
+     <y>389</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>487</x>
+     <y>414</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tapMonth_4</sender>
+   <signal>currentChanged(int)</signal>
+   <receiver>Widget</receiver>
+   <slot>CarType_Month()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>193</x>
+     <y>332</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>4</x>
+     <y>329</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>month_combo_3</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>Widget</receiver>
+   <slot>selectMonth()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>349</x>
+     <y>386</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>484</x>
+     <y>382</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>month_combo</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>Widget</receiver>
+   <slot>MonthTop()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>349</x>
+     <y>386</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>0</x>
+     <y>440</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>period_find</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>find_brand()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>435</x>
+     <y>389</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>478</x>
+     <y>376</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tapMonth</sender>
+   <signal>currentChanged(int)</signal>
+   <receiver>Widget</receiver>
+   <slot>MonthTop()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>31</x>
+     <y>355</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>2</x>
+     <y>374</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>period_find</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>MainSelectPeriod_Model()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>418</x>
+     <y>389</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>480</x>
+     <y>350</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tapMonth_3</sender>
+   <signal>currentChanged(int)</signal>
+   <receiver>Widget</receiver>
+   <slot>selectMonth()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>38</x>
+     <y>329</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>2</x>
+     <y>344</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>period_find_4</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>CarType_Period()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>418</x>
+     <y>374</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>485</x>
+     <y>343</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>month_combo_4</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>Widget</receiver>
+   <slot>CarType_Month()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>347</x>
+     <y>383</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>488</x>
+     <y>372</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>month_combo</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>Widget</receiver>
+   <slot>brand_top3_domestic()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>349</x>
+     <y>386</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-1</x>
+     <y>395</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tapMonth</sender>
+   <signal>currentChanged(int)</signal>
+   <receiver>Widget</receiver>
+   <slot>brand_top3_domestic()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>39</x>
+     <y>350</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>2</x>
+     <y>334</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_joinPage</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>go_joinPage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>331</x>
+     <y>621</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>487</x>
+     <y>610</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_topModel</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>modelTap()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>286</x>
+     <y>593</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1</x>
+     <y>688</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_topBrand</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>on_mainTap_brand_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>247</x>
+     <y>425</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1</x>
+     <y>528</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_topBrand</sender>
+   <signal>clicked()</signal>
+   <receiver>mainTap_brand</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>136</x>
+     <y>417</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>222</x>
+     <y>27</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_topModel</sender>
+   <signal>clicked()</signal>
+   <receiver>mainTap_model</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>417</x>
+     <y>591</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>421</x>
+     <y>29</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>hyundai</sender>
+   <signal>clicked()</signal>
+   <receiver>mainTap_brand</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>75</x>
+     <y>139</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>217</x>
+     <y>30</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>kia</sender>
+   <signal>clicked()</signal>
+   <receiver>mainTap_brand</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>171</x>
+     <y>126</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>226</x>
+     <y>27</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>genesis</sender>
+   <signal>clicked()</signal>
+   <receiver>mainTap_brand</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>232</x>
+     <y>140</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>242</x>
+     <y>33</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KG</sender>
+   <signal>clicked()</signal>
+   <receiver>mainTap_brand</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>309</x>
+     <y>126</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>248</x>
+     <y>26</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>chevolet</sender>
+   <signal>clicked()</signal>
+   <receiver>mainTap_brand</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>400</x>
+     <y>134</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>253</x>
+     <y>30</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>benz</sender>
+   <signal>clicked()</signal>
+   <receiver>mainTap_brand</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>113</x>
+     <y>231</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>254</x>
+     <y>33</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BMW</sender>
+   <signal>clicked()</signal>
+   <receiver>mainTap_brand</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>191</x>
+     <y>224</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>225</x>
+     <y>24</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>honda</sender>
+   <signal>clicked()</signal>
+   <receiver>mainTap_brand</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>252</x>
+     <y>223</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>269</x>
+     <y>33</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>audi</sender>
+   <signal>clicked()</signal>
+   <receiver>mainTap_brand</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>402</x>
+     <y>218</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>264</x>
+     <y>29</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>porsche</sender>
+   <signal>clicked()</signal>
+   <receiver>mainTap_brand</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>338</x>
+     <y>200</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>236</x>
+     <y>33</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>RVMPV_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>CarType()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>97</x>
+     <y>140</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>484</x>
+     <y>143</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_41</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>CarType()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>179</x>
+     <y>123</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>486</x>
+     <y>122</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>input_Join_NAME</sender>
+   <signal>returnPressed()</signal>
+   <receiver>input_Join_ID</receiver>
+   <slot>setFocus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>356</x>
+     <y>390</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>268</x>
+     <y>445</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>input_Join_ID</sender>
+   <signal>returnPressed()</signal>
+   <receiver>input_Join_PW</receiver>
+   <slot>setFocus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>227</x>
+     <y>426</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>495</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>input_Join_PW</sender>
+   <signal>returnPressed()</signal>
+   <receiver>input_Join_EMAIL</receiver>
+   <slot>setFocus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>295</x>
+     <y>515</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>572</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>input_login_ID</sender>
+   <signal>returnPressed()</signal>
+   <receiver>input_login_PW</receiver>
+   <slot>setFocus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>245</x>
+     <y>384</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>476</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>input_findID_NAME</sender>
+   <signal>returnPressed()</signal>
+   <receiver>input_findID_EMAIL</receiver>
+   <slot>setFocus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>231</x>
+     <y>467</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>244</x>
+     <y>537</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>input_findPW_ID</sender>
+   <signal>returnPressed()</signal>
+   <receiver>input_findPW_NAME</receiver>
+   <slot>setFocus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>214</x>
+     <y>437</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>220</x>
+     <y>507</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>input_findPW_NAME</sender>
+   <signal>returnPressed()</signal>
+   <receiver>input_findPW_EMAIL</receiver>
+   <slot>setFocus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>308</x>
+     <y>507</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>308</x>
+     <y>577</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tapMonth_6</sender>
+   <signal>currentChanged(int)</signal>
+   <receiver>Widget</receiver>
+   <slot>on_month_combo_6_currentIndexChanged()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>40</x>
+     <y>336</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>8</x>
+     <y>322</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>dupl_id()</slot>
+  <slot>dupl_email()</slot>
+  <slot>go_loginPage()</slot>
+  <slot>go_joinPage()</slot>
+  <slot>go_startPage()</slot>
+  <slot>btn_find()</slot>
+  <slot>find_ID()</slot>
+  <slot>find_PW()</slot>
+  <slot>LOGIN_SUCCESS()</slot>
+  <slot>JOIN_SUCCESS()</slot>
+  <slot>selectPeriod()</slot>
+  <slot>selectMonth()</slot>
+  <slot>MonthTop()</slot>
+  <slot>MainSelectPeriod_Model()</slot>
+  <slot>CarType()</slot>
+  <slot>CarType_Month()</slot>
+  <slot>brand_top3_domestic()</slot>
+  <slot>on_tapBrand_currentChanged()</slot>
+  <slot>find_brand()</slot>
+  <slot>CarType_Period()</slot>
+  <slot>on_mainTap_brand_clicked()</slot>
+  <slot>modelTap()</slot>
+  <slot>on_month_combo_6_currentIndexChanged()</slot>
+ </slots>
+</ui>
